@@ -58,7 +58,7 @@ vim.o.scrolloff = 4
 vim.o.foldmethod = "syntax"
 vim.opt.cmdheight = 0
 
-vim.cmd [[colorscheme tokyonight-night]]
+vim.cmd [[colorscheme tokyonight]]
 
 vim.cmd([[
   hi Normal guibg=NONE ctermbg=NONE
@@ -66,4 +66,6 @@ vim.cmd([[
   hi EndOfBuffer guibg=NONE ctermbg=NONE
   hi SignColumn guibg=NONE ctermbg=NONE
   hi VertSplit guibg=NONE ctermbg=NONE
+  hi NormalFloat guibg=NONE ctermbg=NONE
+  hi FloatBorder guibg=NONE ctermbg=NONE
 ]])
